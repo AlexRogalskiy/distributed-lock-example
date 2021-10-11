@@ -1,0 +1,10 @@
+service:
+  delay: 500
+
+server:
+  port: 0
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/exampledb?user=user&password=password
+    driverClassName: org.postgresql.Driver
